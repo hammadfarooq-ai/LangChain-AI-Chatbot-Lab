@@ -1,0 +1,16 @@
+langchain_openai
+langchain_core
+python-dotenv
+streamlit
+langchain_community
+langserve
+ollama
+fastapi
+unicorn
+sse-starlette
+bs4
+pypdf
+faiss-cpu
+wikipedia
+arxiv
+langchainhub
