@@ -1,8 +1,3 @@
-#LANGCHAIN_API_KEY=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
-#OPENAI_API_KEY=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
-#LANGCHAIN_Project="Tutorial"
-
-
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -45,4 +40,5 @@ output_parser=StrOutputParser()
 chain=prompt | llm | output_parser
 
 if input_text:
+
     st.write(chain.invoke({"question":input_text}))
